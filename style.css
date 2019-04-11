@@ -1,0 +1,65 @@
+.carousel-css{
+    max-height: 80vh;
+    overflow: hidden;
+}
+.item img {
+    min-width: 100%;
+    height: auto;
+}
+.carousel-caption {
+   margin-bottom: 100px;
+  }
+  
+.carousel-inner>.item {
+	max-height: 600px;
+}
+
+.carousel-caption {
+	top: 30%;
+    transform: translateY(-30%);
+}
+
+/* Parallax */
+.parallax{
+    background-image: url("images/lights.jpg");
+    height: 20vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Parallax play video*/
+.parallax-1{
+    background-image: url("images/media.jpg");
+    height: 20vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.inner-parral{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.footer-background{
+    background-color: black;
+}
+
+/* About us */
+.background-image-about-us{
+    background: url("images/image1.jpg") no-repeat fixed top;
+    height: 80vh;
+}
+.bg-red{
+    background-color: red;
+}
+.bg-one{
+    background-color: #383838;
+}
+.img-circle-margin{
+    margin-top: -20%;
+}
+.border-color{
+    border-bottom: 1px solid black;
+}
